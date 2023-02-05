@@ -1,0 +1,26 @@
+JS : {
+
+1 . alert("Hellow")
+2 . prompt("Name ?")
+3 . var title = { 1 , sarah }
+4 . external JS - footer
+5 . DOM -	properties - (innerHTML/yexyContent(only text between tags selected),style,firstChild)
+	   	methods - (click() , appendChild() ,setAttribute() )
+		document.gelElementBy*** (TagName , ClassName ,Id ) [0].innerHTML = "fu";
+		document.querySelector("#heading a"); //anchor tag in id is selcted
+		document.querySelector("button").classList.toggle("invisible");
+		document.querySelector("#heading a").attributes/getAttribute("href")/setAttribute("href","https://www.google.com");
+		document.querySelector("button").addEventListener("click" , function () {alert("I got clicked ."):});
+
+}
+
+6 . node index,js
+7 . npm install express
+    const express = require('express');
+    const app = express () ;
+    npm install -g nodemon
+    nodemon
+    npm install body-parser
+    const bodyParser = require('body-parser');
+    app.use(bodyParser.urlencoded({extended:true}));
+    console.log(req.body);
